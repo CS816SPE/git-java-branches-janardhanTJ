@@ -16,7 +16,7 @@ switch(choice)
 case '1': System.out.print("Enter your number:");
           a=scan.nextFloat();
           b=scan.nextFloat();
-          res=a+b;
+          res=(a+b);
           System.out.print("Result=" +res);
           break;
 case '2': System.exit(0);
